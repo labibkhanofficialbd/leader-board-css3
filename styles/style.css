@@ -5,8 +5,43 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
     
 }
+header{
+    display: flex;
+    align-items: center;
+    background-color: #562EFF;
+    padding-top: 10px;
+    padding-left: 210px;
+    padding-bottom: 10px;
+}
+.header-icon{
+    width: 40.42px;
+    height: 51px;
+    margin-right: 20px;
+}
+header h3{
+    color: white;
+}
+ul{
+    display:flex;
+    margin-left: 490px;
+}
+.nav-title{
+    text-decoration: none;
+}
+li{
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.profile{
+    margin-left: 20px;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -22,6 +57,27 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+}
+footer{
+    background-color: #562EFF;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+footer h3{
+    margin-top: 0;
+    color: white;
+}
+footer p{
+    margin-bottom: 0;
+    color: rgb(202, 191, 191);
+}
+footer p a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
 }
 /* top players styles */
 .top-players{
